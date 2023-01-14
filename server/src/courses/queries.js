@@ -1,0 +1,5 @@
+export const getCoursesQuery = "SELECT * FROM courses"
+export const getCoursesByIdQuery = "SELECT * FROM courses WHERE id = $1"
+export const createCourseQuery = "INSERT INTO courses(title, age) VALUES ($1, $2)"
+export const updateCourseQuery = "UPDATE courses SET title = $1 WHERE id = $2"
+export const deleteCourseQuery = "DELETE FROM courses WHERE id = $1"
