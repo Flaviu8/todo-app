@@ -1,0 +1,63 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+form input{
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    padding-left: 1em;
+    border: 3px solid black;
+}
+
+.todo-input {
+    width: 150px;
+    margin: auto;
+    margin-top: 1em;
+
+}
+
+.todo-input button {
+    width: 150px;
+    height: 2em;
+    color: white;
+    background: linear-gradient(0, red, blue );
+    cursor: pointer;
+}
+
+
+.todo-input button:hover {
+    color: aqua; 
+    text-shadow: 0, 5px, white;
+    transition: 0.5s;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.list button {
+    width: 100px;
+    height: 2em;
+    color: white;
+    background: linear-gradient(0, red, blue );
+    cursor: pointer;
+    margin-left: 2em;
+}
+
+
+.list button:hover {
+    color: aqua; 
+    text-shadow: 0, 5px, white;
+    transition: 0.5s;
+}
+
